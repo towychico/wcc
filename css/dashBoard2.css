@@ -1,0 +1,23 @@
+.dashBoardContainer {
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.columnContainer{
+    width:400px;
+    height:600px;
+    display: flex;
+    flex-direction:column;
+
+    background-color: #ff0000;
+    padding:15px;
+}
+#canvas{
+    width: 400px;
+    height:225px;
+    background-color: #FFFFFF;
+}

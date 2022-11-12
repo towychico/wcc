@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'Pattaya';
+    src: url('../fonts/Pattaya-Regular.woff') format('woff'),
+    url('../fonts/Pattaya-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.appContainer{
+    position: fixed;
+    width: 800px;
+    height:100vh;
+    background: rgb(47,128,237);
+    background: linear-gradient(140deg, rgba(47,128,237,1) 0%, rgba(178,255,218,1) 100%);
+}
+
+.custom-shape-divider-bottom-1668231069 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668231069 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 332px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1668231069 .shape-fill {
+    fill: #FFFFFF;
+}
+.contentContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1{
+    font-family: 'Pattaya', serif;
+    font-size: 90px;
+    display: flex;
+
+    justify-content: flex-start;
+    margin: 35px;
+    color: #FFFFFF
+}
+
+.formContainer{
+    display:flex;
+    flex-direction:column;
+}
+.forms{
+    font-family: sans-serif;
+    font-size: medium;
+    display: flex;
+    margin:35px;
+    flex-direction: row;
+
+
+    color:#FFFFFF;
+    width: 80px;
+    height:65px;
+}
+.formContent{
+    margin: 10px;
+    font-family: serif;
+    font-size: x-large;
+    color:#FFFFFF;
+}
+.formContentInput:hover{
+    color: #2d2c2c;
+    background-color: #FFFFFF;
+}
+.click{
+    font-family: sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    color: #0c0c0c;
+    margin: 45px;
+}
+.formContentInput{
+    background-color: rgba(248, 248, 248, 0.19);
+    border-radius: 9px;
+    border: 2px solid #fff;
+    width: 180px;
+}
+.title1{
+    font-family:'IBM Plex Sans';
+}
+.AIinput{
+    font-size:35px;
+    background:none;
+    border: 2px solid #fff;
+    color:#fff;
+    width: 180px;
+    border-radius:20px;
+
+
+    height:50px;
+
+}
+.AIinput:active{
+    font-size:35px;
+    background: linear-gradient(90deg, rgba(47,128,237,1) 0%, rgba(178,255,218,1) 100%);
+    border:none;
+    color:#fff;
+    width: 180px;
+    border-radius:20px;
+
+
+    height:50px;
+}
